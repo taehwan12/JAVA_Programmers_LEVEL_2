@@ -22,6 +22,6 @@ class Solution {
             map.put(clothes[i][1], 0);  //입었으면 0으로 초기화하여 중복 방지
         }
 
-        return answer - 1;  //모두를 입었을 경우 1 제외
+        return answer - 1;  //모두 안 입었을 경우 1 제외
     }
 }
